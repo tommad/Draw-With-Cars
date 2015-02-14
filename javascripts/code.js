@@ -23,7 +23,7 @@ window.onload = function() {
     right=false
 
 	car = new Image();
-    car.src="bv3g.jpg";
+    car.src="images/bv3g.jpg";
     car.width = 150
     
     car.height = 100
@@ -73,7 +73,7 @@ function drive(){
 //draw the new canvas
 function draw()
 {
-    document.getElementById("speed").innerHTML = speed
+  document.getElementById("speed").innerHTML = "speed: " + speed.toFixed(3) + " mph";
     
 	context = canvas.getContext("2d");
 	//context.clearRect(0, 0, width, height);
