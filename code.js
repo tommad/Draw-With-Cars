@@ -7,11 +7,11 @@ window.onload = function() {
 	height = canvas.height;
 
 	//set up car's variables
-    x=300
-    y=300
+    x=width/2
+    y=height/2
     speed=0
     angle=0
-    acc=0.001
+    acc=0.05
     
 
 	
