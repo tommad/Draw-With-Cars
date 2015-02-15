@@ -11,7 +11,7 @@ window.onload = function() {
     y=300
     speed=0
     angle=0
-    acc=0.001
+    acc=0.05
     
 
 	
